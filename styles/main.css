@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(104, 69, 49);
+  scroll-behavior: smooth;
+}
+.grid__container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 250px 250px 250px;
+  /* grid-template-rows: 250px 250px 250px; */
+  gap: 30px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+.grid__item-1 img {
+  background-color: brown;
+  width: 250px;
+  height: 250px;
+}
+.grid__item-2 img {
+  background-color: brown;
+  width: 250px;
+  height: 250px;
+}
+.grid__item-3 img {
+  background-color: brown;
+  width: 250px;
+  height: 250px;
+}
+.iphone {
+  position: absolute;
+  height: 22px;
+  left: 20%;
+  right: 55.67%;
+  top: calc(37% - 22px / 2 + 133.5px);
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #363940;
+}
+.dog {
+  position: absolute;
+  height: 44px;
+  left: 20%;
+  right: 0%;
+  top: calc(38% - 44px / 2 + 175.5px);
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #95a1bb;
+  width: 260px;
+}
+.mack {
+  position: absolute;
+  height: 22px;
+  left: 41%;
+  right: 69.67%;
+  top: calc(37% - 22px / 2 + 133.5px);
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #363940;
+  width: 100px;
+}
+.cat {
+  position: absolute;
+  height: 44px;
+  left: 41%;
+  right: 12.33%;
+  top: calc(38% - 44px / 2 + 175.5px);
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #95a1bb;
+  width: 230px;
+}
+.ipad {
+  position: absolute;
+  height: 22px;
+  left: 62%;
+  right: 79.33%;
+  top: calc(38% - 22px / 2 + 133.5px);
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #363940;
+  width: 60px;
+}
+.plane {
+  position: absolute;
+  height: 44px;
+  left: 62%;
+  right: 0%;
+  top: calc(38% - 44px / 2 + 175.5px);
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #95a1bb;
+  width: 250px;
+}
+
+.grid__container-one {
+  display: grid;
+  display: flex;
+  justify-content: center;
+
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 250px 250px 250px;
+  gap: 30px;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.grid__item-m img {
+  background-color: brown;
+  width: 200px;
+  height: 250px;
+}
+.grid__item-n img {
+  background-color: brown;
+  width: 200px;
+  height: 250px;
+}
+.grid__item-b img {
+  background-color: brown;
+  width: 200px;
+  height: 250px;
+}
+.grid__item-v img {
+  background-color: brown;
+  width: 200px;
+  height: 250px;
+}
+img {
+  display: block;
+}
+a {
+  text-decoration: none;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #6e38f7;
+}
+.grid__container-one p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #363940;
+}
+.grid__container-two {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 280px 280px;
+
+  gap: 230px;
+  margin-top: 100px;
+  margin-left: -120px;
+}
+.grid__item-0 img {
+  width: 440px;
+  height: 280px;
+}
+.grid__item-9 img {
+  width: 440px;
+  height: 280px;
+}
+.grid__container-two p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #363940;
+}
+.grid__container-three {
+  display: grid;
+  grid-template-columns: 900px;
+  justify-content: center;
+  margin-left: 40px;
+  margin-top: 100px;
+}
+.grid__item img {
+  width: 900px;
+}
+.grid__container-three a {
+  position: absolute;
+  top: 254%;
+  left: 80%;
+  color: red;
+}
+.promax {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #363940;
+}
+.cosmos {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #95a1bb;
+}
